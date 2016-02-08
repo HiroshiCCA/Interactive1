@@ -1,0 +1,36 @@
+body {
+	background-color: Crimson;
+	font-size: 22px;
+	line-height: 1.3em;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+ul {
+	font-family:Helvetica, sans-serif;
+	color: LightYellow;
+	list-style-type: none;
+}
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 4em;
+	line-height: 1.2em;
+}
+
+	
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 3em;
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: lighter;
+	color: LightGray;
+}
