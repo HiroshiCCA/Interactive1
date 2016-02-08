@@ -12,6 +12,10 @@ a:hover {
 	color: Green;
 }
 
+a:visited {
+	color: red;
+}
+
 #links {
 	margin: 5px;
 	padding: 40px;
