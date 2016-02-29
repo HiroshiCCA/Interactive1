@@ -210,3 +210,20 @@ body {
 	bottom: 0px;
 	margin: auto;
 }
+
+
+/*computers/tablets/laptops*/
+@media screen and (max-width:1920px){
+	#container {
+		width: 100%;
+	}
+
+}
+
+/*tablet*/
+@media screen and (max-width:1400px){
+	#container {
+		width: 100%;
+	}
+
+}
