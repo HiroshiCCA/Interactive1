@@ -1,0 +1,485 @@
+@media screen and (max-width: 959px) {  
+	#container {
+		width: 100%
+}
+}
+
+@media screen and (max-width: 800px) {  
+	#container {
+		width: 60%
+}
+}
+
+
+@font-face {
+	font-family: 'Source';
+	src: url("../SourceCodePro-ExtraLight.ttf");
+}
+
+body {
+	background: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+	width: 1920px;
+	height: 1080px;
+}
+
+.container {
+	color: #3399ff;
+	width: 960px;
+	max-height: 100%;
+	height: 980px;
+	max-height: 100%;
+	position: absolute;
+	/*background: black;*/
+	top: 50%;
+	left: 20%;
+	z-index: 1;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.containerleft {
+	transform: rotateZ(90deg);
+	width: 960px;
+	/*background: black;*/
+	z-index: 1;
+	position: relative;
+	left: -20%;
+	top: 50%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	opacity: 0.5;
+}
+
+.constellationsleft {
+	font-family: Source;
+	font-size: 0.15em;
+	position: relative;
+	z-index: 2;
+	float: clear;
+	width: 100%;
+	opacity: 0;
+	color: #808080;
+}
+
+.containerright {
+	transform: rotateZ(-90deg);
+	width: 960px;
+/*	max-height: 100%;
+*/
+	z-index: 1;
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	opacity: 0.5;
+}
+
+.constellationsright {
+	font-family: Source;
+	font-size: 0.15em;
+	position: relative;
+	z-index: 2;
+	float: clear;
+	width: 100%;
+	opacity: 0;
+	color: #808080;
+}
+
+.strip {
+	/*top: 50%;*/
+	width: 100%;
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.starry {
+	z-index: 3;
+	/*top: 50%;*/
+	width: 65%;
+	margin: auto;
+	height: 200px;
+	position: relative;
+}
+
+.letterblock {
+	font-family: Source, Helvetica, Arial, Sans-serif;
+	font-size: 5em;
+	width: 4%;
+	z-index: inherit;
+	position: relative;
+	margin: 3%;
+	float: left;
+/*	background: orange;*/
+}
+
+.center {
+	opacity: 0.45;
+}
+
+.constellations {
+	font-family: Source;
+	font-size: 0.15em;
+	position: relative;
+	z-index: 2;
+	float: clear;
+	width: 100%;
+	opacity: 0;
+}
+
+/*==============*/
+
+
+.sing {
+	top: -380px;
+	left: 20px;
+}
+
+.SingA {
+	position: relative;
+}
+
+.s1 {
+	top: -70px;
+	right: -40px;
+}
+
+.s2 {
+	bottom: -80px;
+	left: -40px;
+}
+
+.s3 {
+	top: -5px;
+	left: -15px;
+}
+
+.s4 {
+	top: -60px;
+	right: -80px;
+}
+
+/*==============*/
+
+.think {
+	top: -235px;
+	left: 20px;
+}
+
+.ThinkA {
+	position: relative;
+}
+
+.Thi1 {
+	top: 100px;
+	left: 110px;
+}
+
+.Thi2 {
+	top: -50px;
+	left:-30px;
+}
+
+.Thi3 {
+	top: 45px;
+	left: -20px;
+}
+
+.Thi4 {
+	top: -50px;
+	left: 90px;
+}
+
+.Thi5 {
+	top: -40px;
+	left: 60px
+}
+
+/*==============*/
+
+.remember {
+	bottom: -170px;
+	left: 20px;
+}
+
+.RememberA {
+	position: relative;
+}
+
+.RA1 {
+	top: 50px;
+	left: -210px;
+}
+
+.RA2 {
+	top: -60px;
+	left: -130px;
+}
+
+.RA3 {
+	top: 150px;
+	left: 90px;
+}
+
+.RA4 {
+	top: -60px;
+	left: -50px;
+}
+
+.RA5 {
+	top: 60px;
+	left: 60px;
+}
+
+.RA6 {
+	top: -50px;
+	left: 60px;
+}
+
+.RA7 {
+	top: px;
+	left: -35px;
+}
+
+.RA8 {
+	top: -25px;
+	left: -10px;
+}
+
+/*==============*/
+
+
+.last {
+	bottom: -20px;
+	left: 20px;
+}
+
+.LastA {
+	position: relative;
+}
+
+.LA1 {
+	top: 50px;
+	left: 100px;
+}
+
+.LA2 {
+	top: -30px;
+	left: -50px;
+}
+
+.LA3 {
+	left: 30px;
+}
+
+/*==============*/
+
+
+.remember2 {
+	top: -150px;
+	left: 20px;
+}
+
+.RememberB {
+	position: relative;
+}
+
+.RB1 {
+	top: -110px;
+	left: 10px;
+}
+
+.RB2 {
+	top: -100px;
+	left: 70px;
+}
+
+.RB3 {
+	top: 100px;
+	left: 130px;
+}
+
+.RB4 {
+	top: -80px;
+	left: 80px;
+}
+
+.RB5 {
+	top: -70px;
+	left: -60px;
+}
+
+.RB6 {
+	top: -80px;
+	left: 20px;
+}
+
+.RB7 {
+	top: 10px;
+	left: 10px;
+}
+
+.RB8 {
+	top: -20px;
+	left: -20px;
+}
+
+/*==============*/
+
+
+.catch {
+	bottom: -120px;
+	left: 20px;
+}
+
+.CatchA {
+	position: relative;
+}
+
+.CA1 {
+	top: 20px;
+	left: 140px;
+}
+
+.CA2 {
+	top: 10px;
+	left: 110px;
+}
+
+.CA3 {
+	top: -40px;
+	left: 80px;
+}
+
+.CA4 {
+	top: 30px;
+	left: 15px;
+}
+
+.CA5 {
+	top: -25px;
+	left: 20px;
+}
+
+/*==============*/
+
+
+.today {
+	top: -320px;
+	left: 20px;
+}
+
+.TodayA {
+	position: relative;
+}
+
+.TA1 {
+	top: -90px;
+	left: -50px;
+}
+
+.TA2 {
+	top: -70px;
+	left: 80px;
+}
+
+.TA3 {
+	left: 80px;
+}
+
+.TA4 {
+	top: 40px;
+	left: 25px;
+}
+.TA5 {
+	top: 5px;
+}
+
+/*==============*/
+
+
+.star {
+	top: -180px;
+	left: 20px;
+}
+
+.StarryA {
+	position: relative;
+}
+
+.Sta1 {
+	top: 80px;
+	left: -150px;
+}
+
+.Sta2 {
+	top: 10px;
+	left: 130px;
+}
+
+.Sta3 {
+	top: 70px;
+	left: -90px;
+}
+
+.Sta4 {
+	top: 10px;
+	left: -80px;
+}
+
+.Sta6 {
+	top: -75px;
+	left: 15px;
+}
+
+/*==============*/
+
+
+.sky {
+	bottom: -10px;
+	left: 20px;
+}
+
+.SkyA {
+	position: relative;
+}
+
+.Ska1 {
+	top: 100px;
+	left: 50px;
+}
+
+.Ska2 {
+	top: -30px;
+	left: 50px;
+}
+
+.Ska3 {
+	top: 20px;
+	left: -30px;
+}
+
+/*==============*/
+
+.constellationsleft.flash.sing {
+	top: 0px;
+	bottom: 0px;
+}
+
+.constellationsleft.flash.think {
+	top: 0px;
+	bottom: 0px;
+}
